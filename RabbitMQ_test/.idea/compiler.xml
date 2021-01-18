@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RabbitMqContainsExchange" />
+        <module name="RabbitMq-ManyToOne" />
+        <module name="RabbitMq-OneToMany" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RabbitMq-ManyToOne" target="1.8" />
+      <module name="RabbitMq-OneToMany" target="1.8" />
+      <module name="RabbitMQ_test" target="1.8" />
+      <module name="RabbitMqContainsExchange" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RabbitMQ_test" options="-parameters" />
+      <module name="RabbitMq-ManyToOne" options="-parameters" />
+      <module name="RabbitMq-OneToMany" options="-parameters" />
+      <module name="RabbitMqContainsExchange" options="-parameters" />
+    </option>
+  </component>
+</project>
